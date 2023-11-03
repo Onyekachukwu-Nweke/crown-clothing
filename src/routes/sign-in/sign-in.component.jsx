@@ -4,8 +4,11 @@ import {
 } from "../../utils/firebase/firebase.utils";
 
 const SignIn = () => {
+
   const logGoogleUser = async () => {
     const {user} = await signInWithGooglePopup();
+
+    // eslint-disable-next-line no-unused-vars
     const userDocRef = createUserDocumentFromAuth(user);
   };
 

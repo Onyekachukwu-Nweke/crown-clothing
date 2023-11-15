@@ -14,6 +14,7 @@ import "./navigation.styles.scss"
 
 const Navigation = () => {
   const { currentUser, } = useContext(UserContext);
+  // eslint-disable-next-line no-unused-vars
   const { isCartOpen, setIsCartOpen } = useContext(CartContext)
 
   return(

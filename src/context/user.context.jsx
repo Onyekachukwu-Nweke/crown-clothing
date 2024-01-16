@@ -12,7 +12,6 @@ export const UserContext = createContext({
 
 export const USER_ACTION_TYPES = {
   SET_CURRENT_USER: 'SET_CURRENT_USER',
-
 }
 
 // Using reducers

@@ -20,7 +20,8 @@ export const cartReducer = (state = CART_INITIAL_STATE, action = {}) => {
         isCartOpen: payload,
       };
     default:
-      throw new Error(`unhandled type of ${type} in cartReducer`);
+      return state
+      // throw new Error(`unhandled type of ${type} in cartReducer`);
   }
 
 };
